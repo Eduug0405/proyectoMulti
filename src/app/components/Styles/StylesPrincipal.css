@@ -1,0 +1,90 @@
+.Bienvenida .Bienvenida-usuarios{
+    color: black;
+    font-size: 40px;
+    margin-top: 200px;
+    text-align: center;
+    margin-left: 40px;
+    width: 98%;
+    text-decoration: underline #FA8CEF;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Frase .admi{
+    color: black;
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 40px;
+    width: 98%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.cuerpo{
+    background-color: #ffffff;
+    margin: 0;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    background-color: #ffffff;
+}
+
+.container .card{
+    width: 300px;
+    height: 350px;
+    overflow: hidden;
+    text-align: center;
+    transition: 0.5s ease;
+    cursor: pointer;
+    margin: 0 25px; /* con este se separan las tarjetas*/
+    position: relative;
+}
+
+.container .card:hover{
+    background-color: #0000;
+}
+
+.container .card img {
+    width: 300px;
+    height: 350px;
+    transition: opacity 0.5s;
+}
+
+.container .card img:hover {
+    opacity:0.5;
+    background-color: black;
+
+}
+
+
+.card .title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    display: block;
+}
+
+.container .card:hover title {
+    overflow: hidden;
+}
+
+
+.background-image {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+}
